@@ -1,5 +1,33 @@
-body {
+body{
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center;
+
 }
+nav{
+  background-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+#details{
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+  background-color: red;
+
+}
+#featured-property{
+  font-size: smaller;
+  text-align: center;
+  p{
+    width: 800px;
+    text-align: center;
+    padding-left: 520px;
+    padding-right: 600px;
+  }
+}
+  
+
+
